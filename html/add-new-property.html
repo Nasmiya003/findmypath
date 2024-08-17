@@ -46,7 +46,7 @@
 		<div class="main-wrapper">
 
 			<!-- Header -->
-			<header class="header header-trans">
+			<!-- <header class="header header-trans">
 				<nav class="navbar navbar-expand-lg header-nav">
 					<div class="navbar-header">
 						<a id="mobile_btn" href="javascript:void(0);">
@@ -187,7 +187,7 @@
 						</li>
 					</ul>
 				</nav>
-			</header>
+			</header> -->
 			<!-- /Header -->
 
             <!-- Breadcrumb -->
@@ -198,10 +198,10 @@
                             <h2>Add New Property</h2>
                         </div>
                         <div class="breadcrumb-list">
-                            <ul>
+                            <!-- <ul>
                                 <li><a href="index.html">Home </a></li>
                                 <li>Add New Property</li>
-                            </ul>
+                            </ul> -->
                         </div>
                     </div>
                     <div class="breadcrumb-border-img">
@@ -212,7 +212,7 @@
             <!-- Breadcrumb -->
 
             <!-- Content -->
-			<div class="content inner-content">
+			<!-- <div class="content inner-content">
 				<div class="container">
                     <div class="property-tabs">
                         <ul class="prop-tab">
@@ -244,19 +244,19 @@
 								<a href="#location">Location</a>
 							</li>
 						</ul>
-                    </div>
+                    </div> -->
 
 					<!-- Property Information -->
-					<div class="row" id="propertyinfo">
+					<!-- <div class="row" id="propertyinfo"> -->
                        
-						<div class="col-lg-4">                           
+						<!-- <div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Property Information</h4>
 								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
                             </div>
-						</div>
+						</div> -->
 						
-						<div class="col-lg-8"> 
+						<!-- <div class="col-lg-8"> 
 							<div class="add-property-wrap">
                                 <div class="row">
 									<div class="col-md-12">
@@ -264,17 +264,17 @@
 											<label>Property Name</label>
 											<input type="text" class="form-control" placeholder="Enter Name">
 										</div>
-									</div>
-									<div class="col-md-6">
+									</div> -->
+									<!-- <div class="col-md-6">
 										<div class="review-form">
 											<label>Property Type</label>
 											<select class="select">
 												<option>Buy</option>
-												<option>Sale</option>
+												<option>Rent</option>
 											</select>
 										</div>
-									</div>
-									<div class="col-md-6">
+									</div> -->
+									<!-- <div class="col-md-6">
 										<div class="review-form">
 											<label>Property Category</label>
 											<select class="select">
@@ -282,9 +282,9 @@
 												<option>Apartment</option>
 												<option>Vila</option>
 											</select>
-										</div>
-									</div>
-									<div class="col-md-4">
+										</div> -->
+									<!-- </div> -->
+									<!-- <div class="col-md-4">
 										<div class="review-form">
 											<label>Currency Type</label>
 											<select class="select">
@@ -309,11 +309,32 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
 					<!-- /Property Information -->
+
+					<div class="row" id="description" style="padding: 50px;">
+						<div class="col-lg-4">                           
+                            <div class="property-info">
+                                <h4>Description</h4>
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+                            </div>
+						</div>
+						<div class="col-lg-8"> 
+							<div class="add-property-wrap">
+                                <div class="row">
+									<div class="col-md-12">
+										<div class="review-form">
+											<label>Enter Description of Property</label>
+											<textarea class="form-control" rows="8" placeholder="Description"></textarea>
+										</div>
+									</div>
+								</div>
+                            </div>
+						</div>   
+					</div> 
 					
 					<!-- Property Details -->
-					<div class="row" id="property-details">
+					<div class="row" id="property-details" style="padding: 50px;">
 						
 						<div class="col-lg-4">                           
                             <div class="property-info">
@@ -333,36 +354,40 @@
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>Price per Sqft</label>
+											<label>Property Name</label>
 											<input type="text" class="form-control" placeholder="Enter  Price">
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>Structure type</label>
+											<label>Wifi</label>
 											<select class="select">
-												<option>Select</option>
-												<option>Square</option>
-												<option>Rectangle</option>
+												<option>Available</option>
+												<option>Not Available</option>
+												<!-- <option>Rectangle</option> -->
 											</select>
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>No of Bedooms</label>
+											<label>No of table</label>
 											<input type="text" class="form-control" placeholder="Enter Value">
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>No of Bathrooms</label>
+											<label>No of chairs</label>
 											<input type="text" class="form-control" placeholder="Enter  Value">
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="review-form">
-											<label>Sqft</label>
-											<input type="text" class="form-control" placeholder="Enter Value">
+										<div class="bathroom">
+											<label>Bathroom</label>
+											<select class="select">
+												<option>Available</option>
+												<option>Not Available</option>
+												<!-- <option>Rectangle</option> -->
+											</select>
 										</div>
 									</div>
 									<div class="col-md-4">
@@ -373,27 +398,27 @@
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>Garage size</label>
+											<label>Year built</label>
 											<input type="text" class="form-control" placeholder="Enter Value">
 										</div>
 									</div>
 									<div class="col-md-4">
 										<div class="review-form">
-											<label>Available From</label>
+											<label>Parcking</label>
 											<select class="select">
-												<option>Select Year</option>
-												<option>2023</option>
-												<option>2022</option>
+												<!-- <option>Select </option> -->
+												<option>Available</option>
+												<option>Not Available</option>
 											</select>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<!-- <div class="col-md-6">
 										<div class="review-form">
 											<label>No of Garage</label>
 											<input type="text" class="form-control" placeholder="Enter Value">
 										</div>
-									</div>
-									<div class="col-md-6">
+									</div> -->
+									<!-- <div class="col-md-6">
 										<div class="review-form">
 											<label>Year Constructed</label>
 											<select class="select">
@@ -402,7 +427,7 @@
 												<option>2022</option>
 											</select>
 										</div>
-									</div>
+									</div> -->
 								</div>
                             </div>
 						</div>   
@@ -410,7 +435,7 @@
 					<!-- Property Details -->
 					
 					<!-- Amenities -->
-					<div class="row" id="amenities">
+					<!-- <div class="row" id="amenities">
 						
 						<div class="col-lg-4">                           
                             <div class="property-info">
@@ -569,11 +594,11 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
 					<!-- /Amenities -->
 
 					<!-- Property Documents -->
-					<div class="row" id="documents">
+					<!-- <div class="row" id="documents">
 						<div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Property Documents</h4>
@@ -610,11 +635,11 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
 					<!-- /Property Documents -->
 
 					<!-- Property gallery -->
-					<div class="row" id="gallery">
+					<div class="row" id="gallery" style="padding: 50px;">
 						<div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Property Gallery</h4>
@@ -673,7 +698,7 @@
 					<!-- /Property gallery -->
 
 					<!-- Property Video -->
-					<div class="row" id="videos">
+					<!-- <div class="row" id="videos">
 						<div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Property Video</h4>
@@ -701,11 +726,11 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
 					<!-- /Property Video -->
 					
 					<!-- Property Description -->
-					<div class="row" id="description">
+					<!-- <div class="row" id="description">
 						<div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Description</h4>
@@ -724,11 +749,11 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
 					<!-- Property Description -->
 					
 					<!-- Floor Plan -->
-					<div class="row" id="floor-plan">
+					<!-- <div class="row" id="floor-plan">
  						<div class="col-lg-4">                           
                             <div class="property-info">
                                 <h4>Floor Plan</h4>
@@ -812,14 +837,14 @@
 								</div>
                             </div>
 						</div>   
-					</div> 
+					</div>  -->
                     <!-- /Floor Plan -->
 
 					<!-- Property location -->
-					<div class="row" id="location">
+					<div class="row" id="location" style="padding: 50px;">
 						<div class="col-lg-4">                           
 						   <div class="property-info">
-							   <h4>Property Location</h4>
+							   <h4>Property Address</h4>
 							   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
 						   </div>
 					   </div>
@@ -829,7 +854,7 @@
 							   <div class="row">
 								   <div class="col-md-12">
 									   <div class="review-form">
-										   <label>Address</label>
+										   <label>Property Name</label>
 										   <input type="text" class="form-control" placeholder="Enter Address">
 									   </div>
 								   </div>
@@ -840,6 +865,7 @@
 											   <option>Select Country</option>
 											   <option>UK</option>
 											   <option>Newyork</option>
+											   <option>India</option>
 										   </select>
 									   </div>
 								   </div>
@@ -861,10 +887,10 @@
 										   <input type="text" class="form-control" placeholder="Enter Zip Code">
 									   </div>
 								   </div>
-								   <div class="col-md-12">
+								   <!-- <div class="col-md-12">
 									<div class="review-form google-maps">
 											<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.8862835683544!2d-73.98256668525309!3d41.93829486962529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89dd0ee3286615b7%3A0x42bfa96cc2ce4381!2s132%20Kingston%20St%2C%20Kingston%2C%20NY%2012401%2C%20USA!5e0!3m2!1sen!2sin!4v1670922579281!5m2!1sen!2sin"  allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-										</div>
+										</div> -->
 									</div>
 							   </div>
 						   </div>
@@ -876,8 +902,8 @@
 					<div class="row">
 						<div class="col-md-12">                           
 						   <div class="property-submit">
-							  <a href="javascript:void(0);" class="btn btn-lightred">Reset</a>
-							  <a href="buy-property-grid.html" class="btn btn-primary">Add Property</a>
+							  <!-- <a href="javascript:void(0);" class="btn btn-lightred">Reset</a> -->
+							  <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#success">Add Property</a>
 						   </div>
 					   </div>
 					</div>
@@ -889,7 +915,7 @@
 			<!-- Footer -->
 			<footer class="footer">
 				<!-- Footer Top -->
-				<div class="footer-top">
+				<!-- <div class="footer-top">
 					<div class="footer-border-img">
 						<img src="assets/img/bg/line-bg.png" alt="Line Image">
 					</div>
@@ -978,10 +1004,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div> -->
 				<!-- /Footer Top -->
 				<!-- Footer Bottom -->
-				<div class="footer-bottom">
+				<!-- <div class="footer-bottom">
 					<div class="container">
 						<div class="footer-bottom-content">
 							<div class="copyright">
@@ -993,10 +1019,25 @@
 							</div>
 						</div>						
 					</div>
-				</div>
+				</div> -->
 				<!-- /Footer Bottom -->
 			</footer>
 			<!-- /Footer -->
+			 <!-- Modal -->
+			<div class="modal fade modal-succeess" id="success" tabindex="-1" aria-hidden="true">
+				<div class="modal-dialog  modal-dialog-centered">
+					<div class="modal-content">
+						<div class="modal-body">
+							<div class="success-popup">
+								<h4><img src="assets/img/icons/double-tick.svg" alt="img"></h4>
+								<h5>Property Added Successful</h5>
+								<p>Waitting for Admin Approval</p>
+								<a href="seller.html" class="btn btn-primary w-100">Back to Home</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			
 			<!-- Search -->
 			<div class="search-popup js-search-popup ">
